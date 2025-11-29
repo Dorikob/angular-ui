@@ -50,9 +50,9 @@ export default {
   argTypes: {}
 } as Meta;
 
-const Template: StoryFn<BaoRadioButtonComponent & { label: string }> = (
-  args: BaoRadioButtonComponent
-) => ({
+const Template: StoryFn<
+  BaoRadioButtonComponent & { label: string }
+> = args => ({
   component: BaoRadioButtonComponent,
   template: `
   <bao-radio-button id="ID1" name="name" value="example1">

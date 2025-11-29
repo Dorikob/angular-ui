@@ -45,9 +45,7 @@ export default {
   argTypes: {}
 } as Meta;
 
-const Template: StoryFn<BaoCheckboxComponent & { label: string }> = (
-  args: BaoCheckboxComponent
-) => ({
+const Template: StoryFn<BaoCheckboxComponent & { label: string }> = args => ({
   component: BaoCheckboxComponent,
   template: `
   <bao-checkbox id="ID1" name="name"

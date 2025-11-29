@@ -71,7 +71,7 @@ export default {
       table: { defaultValue: { summary: 'Cacher le message' } }
     },
     dismissible: {
-      table: { defaultValue: { summary: false } }
+      table: { defaultValue: { summary: 'false' } }
     }
   }
 } as Meta;

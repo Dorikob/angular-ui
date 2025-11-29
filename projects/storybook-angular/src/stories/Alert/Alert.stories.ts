@@ -85,7 +85,7 @@ export default {
     },
     dismissible: {
       table: {
-        defaultValue: { summary: false }
+        defaultValue: { summary: 'false' }
       }
     }
   }
