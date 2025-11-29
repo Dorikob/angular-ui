@@ -213,9 +213,7 @@ export default {
   }
 } as Meta;
 
-const Template: StoryFn<BaoFileInputComponent> = (
-  args: BaoFileInputComponent
-) => ({
+const Template: StoryFn<BaoFileInputComponent> = args => ({
   component: BaoFileInputComponent,
   template: `
     <div style="max-width:24rem;">

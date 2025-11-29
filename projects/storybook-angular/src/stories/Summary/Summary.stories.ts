@@ -107,7 +107,7 @@ export default {
 
 const Template: StoryFn<
   BaoSummaryComponent & { title: string; content: string }
-> = (args: BaoSummaryComponent) => ({
+> = args => ({
   component: BaoSummaryComponent,
   template: `
   <div class="col-12 md-6 md-4">
